@@ -1,0 +1,58 @@
+.top-header{
+  height: 40px;
+  padding: 0 4%;
+  display: block;
+  background-color: #f5f5f5;
+  line-height: 40px;
+}
+.inner{
+  width: 88%;
+  margin: 0 auto;
+}
+.button-group{
+  float: right;
+  margin-top: 5px;
+}
+
+.App-logo {
+  width: 60px;
+  height: 60px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.app-header{
+  background-color: #fff;
+}
+.main-header{
+  background-color: #fff;
+  line-height: 60px;
+  width: 88%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+.title{
+  color: aqua !important;
+  width: 200px;
+  margin: 0 !important;
+}
+.search{
+  width: 300px;
+}
+.main-menu{
+  padding-left: 6%;
+  padding-right: 6%;
+  background-color: #1976d2;
+  color: #f5f5f5;
+}
